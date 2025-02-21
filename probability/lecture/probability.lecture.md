@@ -114,7 +114,9 @@ paginate: true
 - **Mean**:  
   - Discrete: $E[X]=\sum_x x\,p_X(x)$.  
   - Continuous: $E[X]=\int_{-\infty}^{\infty}x\,f_X(x)\,dx$.  
-- **Variance**: $\mathrm{Var}(X)=E[X^2]-(E[X])^2$.
+- **Variance**: 
+  - $\mathrm{Var}(X)=E[(X-E[X])^2]$
+  - Alternatively, $\mathrm{Var}(X)=E[X^2]-(E[X])^2$..
 
 ---
 
