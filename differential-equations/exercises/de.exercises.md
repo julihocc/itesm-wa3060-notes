@@ -39,14 +39,14 @@
 
 #### **3. Applications of First-Order Differential Equations**  
 7. **Exponential Growth & Decay:** A bacteria culture starts with 500 cells and grows at a rate proportional to its population. After 2 hours, there are 2000 cells.  
-   - Find the population function $ P(t) $.  
+   - Find the population function $P(t)$.  
    - Determine how many cells will be present after 5 hours.  
 
-8. **Newton’s Law of Cooling:** A cup of coffee at $ 90^\circ C $ is left in a room at $ 20^\circ C $. After 5 minutes, the temperature drops to $ 70^\circ C $.  
+8. **Newton’s Law of Cooling:** A cup of coffee at $90^\circ C$ is left in a room at $20^\circ C$. After 5 minutes, the temperature drops to $70^\circ C$.  
    - Find the cooling equation.  
    - Determine the temperature after 10 minutes.  
 
-9. **Falling Object with Air Resistance:** A 5 kg object is dropped from rest, experiencing air resistance proportional to its velocity, given by $ m \frac{dv}{dt} = mg - kv $ with $ k = 2 $ Ns/m.  
-   - Find the velocity function $ v(t) $.  
+9. **Falling Object with Air Resistance:** A 5 kg object is dropped from rest, experiencing air resistance proportional to its velocity, given by $m \frac{dv}{dt} = mg - kv$ with $k = 2$ Ns/m.  
+   - Find the velocity function $v(t)$.  
    - Determine the terminal velocity.
 
