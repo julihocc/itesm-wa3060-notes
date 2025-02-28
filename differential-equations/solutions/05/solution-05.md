@@ -153,4 +153,3 @@ y = -\cos x + \frac{\sin x}{x} + \frac{C}{x}
 | \( y' + 2y = e^{-x} \) | \( y = e^{-x} + C e^{-2x} \) |
 | \( xy' + y = x^2 \) | \( y = \frac{x^2}{3} + \frac{C}{x} \) |
 | \( y' + \frac{y}{x} = \sin x \) | \( y = -\cos x + \frac{\sin x}{x} + \frac{C}{x} \) |
-
