@@ -5,10 +5,10 @@ Newton’s Law of Cooling states that the rate of change of the temperature of a
 \frac{dT}{dt} = -k (T - T_{\infty})
 ```
 where:  
-- \( T(t) \) is the temperature at time \( t \),  
-- \( T_{\infty} = 20^\circ C \) is the ambient temperature,  
-- \( k \) is the cooling constant,  
-- \( T_0 = 90^\circ C \) is the initial temperature.
+- $T(t)$ is the temperature at time $t$,  
+- $T_{\infty} = 20^\circ C$ is the ambient temperature,  
+- $k$ is the cooling constant,  
+- $T_0 = 90^\circ C$ is the initial temperature.
 
 ---
 
@@ -28,12 +28,12 @@ Exponentiate both sides:
 ```math
 T - 20 = e^{-kt + C} = e^C e^{-kt}
 ```
-Define \( C' = e^C \) (a new constant):
+Define $C' = e^C$ (a new constant):
 ```math
 T - 20 = C' e^{-kt}
 ```
 
-Since \( C' \) represents an initial temperature shift, we use the initial condition \( T(0) = 90 \):
+Since $C'$ represents an initial temperature shift, we use the initial condition $T(0) = 90$:
 ```math
 90 - 20 = C' e^{0}
 ```
@@ -52,8 +52,8 @@ T(t) = 20 + 70 e^{-kt}
 
 ---
 
-### **Step 2: Find \( k \) Using Given Data**  
-We are given \( T(5) = 70 \):
+### **Step 2: Find $k$ Using Given Data**  
+We are given $T(5) = 70$:
 ```math
 70 = 20 + 70 e^{-5k}
 ```
@@ -75,22 +75,22 @@ Take the natural logarithm:
 k = -\frac{\ln \frac{5}{7}}{5}
 ```
 
-Approximating \( \ln(5/7) \approx -0.3365 \):
+Approximating $\ln(5/7) \approx -0.3365$:
 ```math
 k \approx \frac{0.3365}{5} = 0.0673
 ```
 
 ---
 
-### **Step 3: Find \( T(10) \)**
-Substituting \( t = 10 \) into \( T(t) = 20 + 70 e^{-0.0673 t} \):
+### **Step 3: Find $T(10)$**
+Substituting $t = 10$ into $T(t) = 20 + 70 e^{-0.0673 t}$:
 ```math
 T(10) = 20 + 70 e^{-0.0673(10)}
 ```
 ```math
 T(10) = 20 + 70 e^{-0.673}
 ```
-Approximating \( e^{-0.673} \approx 0.5105 \):
+Approximating $e^{-0.673} \approx 0.5105$:
 ```math
 T(10) = 20 + 70(0.5105)
 ```
