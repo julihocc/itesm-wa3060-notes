@@ -48,7 +48,7 @@ Rearrange:
 ```
 
 ### **Step 3: Integrate Both Sides**
-Using substitution for the left integral, let \( u = 1 + v^2 \), then \( du = 2v dv \):
+Using substitution for the left integral, let $u = 1 + v^2$, then $du = 2v dv$:
 ```math
 \int \frac{(1 - v)}{1 + v^2} dv = \int \frac{dv}{1 + v^2} - \int \frac{v dv}{1 + v^2}
 ```
