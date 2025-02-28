@@ -15,41 +15,41 @@ Differential equations are equations that relate a function to its derivatives. 
 
 ## **2. First-Order Ordinary Differential Equations**  
 These are equations of the form:  
-\[
+```math
 F(x, y, y') = 0
-\]
+```
 or, in explicit form,  
-\[
+```math
 y' = f(x, y)
-\]
+```
 
 ### **Types of First-Order Equations**  
 1. **Separable Equations:** can be rewritten as  
-   \[
+   ```math
    g(y) dy = f(x) dx
-   \]  
+   ```  
    and solved by direct integration.  
    
 2. **Homogeneous Equations:** of the form  
-   \[
+   ```math
    y' = f(y/x)
-   \]  
+   ```  
    where the substitution \( v = y/x \) is used.  
 
 3. **First-Order Linear Equations:**  
-   \[
+   ```math
    y' + P(x)y = Q(x)
-   \]  
+   ```  
    which are solved using an integrating factor.  
 
 4. **Exact Equations:** satisfy  
-   \[
+   ```math
    M(x, y)dx + N(x, y)dy = 0
-   \]
+   ```
    and the exactness condition  
-   \[
-   \frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}.
-   \]  
+   ```math
+   \frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}
+   ```  
 
 ---
 
@@ -62,19 +62,19 @@ y' = f(x, y)
 
 ### **Common Applications**  
 - **Exponential Growth and Decay:**  
-  \[
+  ```math
   \frac{dy}{dt} = ky
-  \]
+  ```
   with solution \( y(t) = y_0 e^{kt} \).  
 - **Newton's Law of Cooling:**  
-  \[
+  ```math
   \frac{dT}{dt} = -k(T - T_{\infty})
-  \]
+  ```
   models the temperature change of a body.  
 - **Falling Bodies with Air Resistance:**  
-  \[
+  ```math
   m \frac{dv}{dt} = mg - kv
-  \]
+  ```
   describes the velocity of a falling object.  
 
 This topic lays the foundation for higher-order equations and partial differential equations.
