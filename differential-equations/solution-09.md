@@ -1,9 +1,9 @@
 ### **Solution: Falling Object with Air Resistance**  
 
 The motion of the falling object is governed by the differential equation:  
-\[
+```math
 m \frac{dv}{dt} = mg - kv
-\]
+```
 where:  
 - \( m = 5 \) kg (mass of the object),  
 - \( g = 9.8 \) m/s² (acceleration due to gravity),  
@@ -14,97 +14,97 @@ where:
 
 ### **Step 1: Rewrite the Equation in Standard Form**  
 Dividing both sides by \( m \):
-\[
+```math
 \frac{dv}{dt} + \frac{k}{m} v = g
-\]
+```
 Substituting \( k = 2 \) and \( m = 5 \):
-\[
+```math
 \frac{dv}{dt} + \frac{2}{5} v = 9.8
-\]
+```
 This is a **first-order linear differential equation** of the form:
-\[
+```math
 \frac{dv}{dt} + P v = Q
-\]
+```
 where \( P = \frac{2}{5} \) and \( Q = 9.8 \).
 
 ---
 
 ### **Step 2: Solve Using the Integrating Factor Method**  
 The integrating factor is:
-\[
+```math
 \mu(t) = e^{\int \frac{2}{5} dt} = e^{\frac{2}{5}t}
-\]
+```
 
 Multiplying both sides of the equation by \( \mu(t) \):
-\[
+```math
 e^{\frac{2}{5}t} \frac{dv}{dt} + \frac{2}{5} e^{\frac{2}{5}t} v = 9.8 e^{\frac{2}{5}t}
-\]
+```
 Rewriting the left-hand side as a derivative:
-\[
+```math
 \frac{d}{dt} \left( e^{\frac{2}{5}t} v \right) = 9.8 e^{\frac{2}{5}t}
-\]
+```
 
 ### **Step 3: Integrate Both Sides**  
-\[
+```math
 \int d\left(e^{\frac{2}{5}t} v \right) = \int 9.8 e^{\frac{2}{5}t} dt
-\]
+```
 
 The right-hand integral is:
-\[
+```math
 \int 9.8 e^{\frac{2}{5}t} dt = 9.8 \cdot \frac{5}{2} e^{\frac{2}{5}t} = 24.5 e^{\frac{2}{5}t}
-\]
+```
 
 Thus, we obtain:
-\[
+```math
 e^{\frac{2}{5}t} v = 24.5 e^{\frac{2}{5}t} + C
-\]
+```
 
 ### **Step 4: Solve for \( v(t) \)**
 Dividing by \( e^{\frac{2}{5}t} \):
-\[
+```math
 v = 24.5 + C e^{-\frac{2}{5}t}
-\]
+```
 
 Using the initial condition \( v(0) = 0 \):
-\[
+```math
 0 = 24.5 + C e^0
-\]
-\[
+```
+```math
 C = -24.5
-\]
+```
 
 Thus, the velocity function is:
-\[
+```math
 v(t) = 24.5 (1 - e^{-\frac{2}{5}t})
-\]
+```
 
 ✅ **Final Answer for Velocity Function:**
-\[
+```math
 v(t) = 24.5 (1 - e^{-\frac{2}{5}t})
-\]
+```
 
 ---
 
 ### **Step 5: Find the Terminal Velocity**  
 The **terminal velocity** is the velocity as \( t \to \infty \), which means \( e^{-\frac{2}{5}t} \to 0 \):
 
-\[
+```math
 v_{\text{terminal}} = 24.5 (1 - 0) = 24.5 \text{ m/s}
-\]
+```
 
 ✅ **Final Answer for Terminal Velocity:**
-\[
+```math
 v_{\text{terminal}} = 24.5 \text{ m/s}
-\]
+```
 
 ---
 
 ### **Final Answers Summary:**
 1. **Velocity function:**  
-   \[
+   ```math
    v(t) = 24.5 (1 - e^{-\frac{2}{5}t})
-   \]
+   ```
 2. **Terminal velocity:**  
-   \[
+   ```math
    v_{\text{terminal}} = 24.5 \text{ m/s}
-   \]
+   ```
