@@ -49,4 +49,3 @@
 9. **Falling Object with Air Resistance:** A 5 kg object is dropped from rest, experiencing air resistance proportional to its velocity, given by $m \frac{dv}{dt} = mg - kv$ with $k = 2$ Ns/m.  
    - Find the velocity function $v(t)$.  
    - Determine the terminal velocity.
-
