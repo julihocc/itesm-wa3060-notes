@@ -34,7 +34,7 @@ y' = f(x, y)
    ```math
    y' = f(y/x)
    ```  
-   where the substitution \( v = y/x \) is used.  
+   where the substitution \(v = y/x\) is used.  
 
 3. **First-Order Linear Equations:**  
    ```math
@@ -65,7 +65,7 @@ y' = f(x, y)
   ```math
   \frac{dy}{dt} = ky
   ```
-  with solution \( y(t) = y_0 e^{kt} \).  
+  with solution \(y(t) = y_0 e^{kt}\).  
 - **Newton's Law of Cooling:**  
   ```math
   \frac{dT}{dt} = -k(T - T_{\infty})

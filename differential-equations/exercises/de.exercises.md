@@ -2,38 +2,38 @@
 
 #### **1. Introduction to Differential Equations**  
 1. Determine the order and linearity of the following differential equations:  
-   a) $ \frac{d^2y}{dx^2} + 3\frac{dy}{dx} - 2y = 0 $  
-   b) $ xy'' + \sin(x)y' + e^y = 0 $  
-   c) $ y' + xy = x^2 $  
-   d) $ \frac{d^3y}{dx^3} + \cos(y') = x^2 $  
+   a) $\frac{d^2y}{dx^2} + 3\frac{dy}{dx} - 2y = 0$  
+   b) $xy'' + \sin(x)y' + e^y = 0$  
+   c) $y' + xy = x^2$  
+   d) $\frac{d^3y}{dx^3} + \cos(y') = x^2$  
 
 2. Classify each of the following equations as an **ODE** or **PDE**:  
-   a) $ \frac{\partial u}{\partial t} + \frac{\partial^2 u}{\partial x^2} = 0 $  
-   b) $ y'' - y' + y = x $  
-   c) $ \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0 $  
-   d) $ y' + \sin(y) = x^2 $  
+   a) $\frac{\partial u}{\partial t} + \frac{\partial^2 u}{\partial x^2} = 0$  
+   b) $y'' - y' + y = x$  
+   c) $\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$  
+   d) $y' + \sin(y) = x^2$  
 
 ---
 
 #### **2. First-Order Ordinary Differential Equations**  
 3. Solve the following separable equations:  
-   a) $ \frac{dy}{dx} = xy $  
-   b) $ \frac{dy}{dx} = \frac{x}{y} $  
-   c) $ y' = e^x y $  
-   d) $ (y^2 + 1) dy = x dx $  
+   a) $\frac{dy}{dx} = xy$  
+   b) $\frac{dy}{dx} = \frac{x}{y}$  
+   c) $y' = e^x y$  
+   d) $(y^2 + 1) dy = x dx$  
 
 4. Solve the homogeneous differential equations:  
-   a) $ y' = \frac{x + y}{x - y} $  
-   b) $ y' = \frac{x^2 + y^2}{xy} $  
+   a) $y' = \frac{x + y}{x - y}$  
+   b) $y' = \frac{x^2 + y^2}{xy}$  
 
 5. Solve the first-order linear equations using the integrating factor method:  
-   a) $ y' + 2y = e^{-x} $  
-   b) $ xy' + y = x^2 $  
-   c) $ y' + \frac{y}{x} = \sin x $  
+   a) $y' + 2y = e^{-x}$  
+   b) $xy' + y = x^2$  
+   c) $y' + \frac{y}{x} = \sin x$  
 
 6. Determine whether the following equations are **exact**, and if so, solve them:  
-   a) $ (2xy + y^2)dx + (x^2 + 2xy)dy = 0 $  
-   b) $ (y + 3x^2y^2)dx + (x + 2x^3y)dy = 0 $  
+   a) $(2xy + y^2)dx + (x^2 + 2xy)dy = 0$  
+   b) $(y + 3x^2y^2)dx + (x + 2x^3y)dy = 0$  
 
 ---
 
