@@ -27,9 +27,9 @@ While propositional logic deals with whole statements, **first-order logic** all
 - **Predicates**: Functions that return true or false for given objects (e.g., $P(x)$ could mean "x is a prime number").  
 
 Example of a formalized statement in FOL:  
-\[
+$$
 \forall x \ (Human(x) \rightarrow Mortal(x))
-\]  
+$$  
 ("All humans are mortal.")  
 
 ---
@@ -41,19 +41,19 @@ An argument consists of premises and a conclusion. It is **valid** if, whenever 
 #### **Common Rules of Inference**  
 1. **Modus Ponens**:  
    If $P \rightarrow Q$ and $P$ is true, then $Q$ must be true.  
-   \[
+   $$
    P \rightarrow Q, \quad P \quad \therefore Q
-   \]  
+   $$  
 2. **Modus Tollens**:  
    If $P \rightarrow Q$ and $Q$ is false, then $P$ must be false.  
-   \[
+   $$
    P \rightarrow Q, \quad \neg Q \quad \therefore \neg P
-   \]  
+   $$  
 3. **Disjunctive Syllogism**:  
    If $P \lor Q$ is true and $\neg P$ is true, then $Q$ must be true.  
-   \[
+   $$
    P \lor Q, \quad \neg P \quad \therefore Q
-   \]  
+   $$  
 
 ### **Formal Proofs**  
 Proofs in logic use a step-by-step application of inference rules to derive conclusions from premises. **Truth tables**, **natural deduction**, and **proof by contradiction** are common proof methods.  
