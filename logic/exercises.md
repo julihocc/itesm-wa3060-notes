@@ -1,4 +1,4 @@
-### **Exam: Logic**  
+### **Exercises: Logic**  
 
 #### **1. Propositional and First-Order Logic**  
 1. Determine whether the following statements are **tautologies**, **contradictions**, or **contingent**:  
