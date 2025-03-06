@@ -5,7 +5,7 @@ Logic is the study of principles of reasoning and argumentation. It provides for
 
 ### **Types of Logic**  
 1. **Propositional Logic:** Deals with propositions (statements that are either true or false) and logical connectives such as **AND**, **OR**, and **NOT**.  
-2. **First-Order Logic (Predicate Logic):** Extends propositional logic by including quantifiers (**∀, ∃**) and predicates that express relationships between objects.  
+2. **First-Order Logic (Predicate Logic):** Extends propositional logic by including quantifiers ($\forall, \exists$) and predicates that express relationships between objects.  
 
 ---
 
