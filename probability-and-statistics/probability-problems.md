@@ -1,9 +1,10 @@
-# Mock Certification Exam: Probability and Statistics
+# Probability and Statistics | Practice problems
 
 **Time Allowed:** 120 minutes  
 **Total Points:** 100
 
 **Instructions:**  
+
 - Answer all questions.
 - Show all work and justify your answers.
 - You may use a calculator.
