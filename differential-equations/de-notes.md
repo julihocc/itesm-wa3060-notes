@@ -1,19 +1,23 @@
 # **Lecture Notes: Differential Equations**  
 
 ## **1. Introduction to Differential Equations**  
+
 Differential equations are equations that relate a function to its derivatives. They are fundamental in the mathematical modeling of physical, biological, and economic phenomena, among others.  
 
 ### **Classification of Differential Equations**  
+
 1. **Ordinary Differential Equations (ODEs):** involve a function of a single independent variable and its derivatives.  
 2. **Partial Differential Equations (PDEs):** contain partial derivatives of a function with multiple independent variables.  
 
 ### **Order and Linearity**  
+
 - **Order:** defined by the highest derivative present in the equation.  
 - **Linear vs. Nonlinear:** An equation is linear if the function and its derivatives appear in a linear manner (without products or nonlinear functions of them).  
 
 ---
 
 ## **2. First-Order Ordinary Differential Equations**  
+
 These are equations of the form:  
 $$
 F(x, y, y') = 0
@@ -24,12 +28,13 @@ y' = f(x, y)
 $$
 
 ### **Types of First-Order Equations**  
+
 1. **Separable Equations:** can be rewritten as  
    $$
    g(y) dy = f(x) dx
    $$  
    and solved by direct integration.  
-   
+
 2. **Homogeneous Equations:** of the form  
    $$
    y' = f(y/x)
@@ -54,13 +59,16 @@ $$
 ---
 
 ## **3. Solution Methods and Applications**  
+
 ### **Solution Methods**  
+
 1. **Direct integration** (for separable equations).  
 2. **Using integrating factors** (for linear equations).  
 3. **Applying appropriate variable substitutions** (for homogeneous or reducible equations).  
 4. **Checking exactness conditions and finding potential functions** (for exact equations).  
 
 ### **Common Applications**  
+
 - **Exponential Growth and Decay:**  
   $$
   \frac{dy}{dt} = ky
