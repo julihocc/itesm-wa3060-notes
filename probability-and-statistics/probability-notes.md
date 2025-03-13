@@ -1,16 +1,5 @@
----
-marp: true
-title: "Probability and Statistics Refresher"
-paginate: true
----
-
-<!--
-  To present with Marp, save this file as .md and use:
-    npx @marp-team/marp-cli yourfile.md --pdf
-  or open it in a Marp-compatible environment.
--->
-
 # Probability and Statistics Refresher  
+
 ### Two-Hour Crash Course
 
 ---
@@ -31,6 +20,7 @@ paginate: true
 # 1. Probability & Set Theory
 
 **Key Points**  
+
 - **Sample space**: $\Omega$, the set of all possible outcomes.  
 - **Event**: A subset of $\Omega$.  
 - **Axioms**:  
@@ -44,6 +34,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - Roll a fair six-sided die ($\Omega=\{1,2,3,4,5,6\}$). Find $P(\text{roll}<4)$.
 
 ---
@@ -51,6 +42,7 @@ paginate: true
 # 2. Operations with Events
 
 **Key Points**  
+
 - **Union** ($A\cup B$): either $A$ or $B$ (or both).  
 - **Intersection** ($A\cap B$): both $A$ and $B$.  
 - **Complement** ($A^c$): not $A$.  
@@ -65,6 +57,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - If $P(A)=0.4$, $P(B)=0.3$, and $P(A\cap B)=0.1$, find $P(A^c)$, $P(A\cup B)$, etc.
 
 ---
@@ -72,6 +65,7 @@ paginate: true
 # 3. Conditional Probability & Independence
 
 **Key Points**  
+
 - **Conditional Probability**:  
   $$
   P(A\mid B)=\frac{P(A\cap B)}{P(B)},\quad P(B)\neq0.
@@ -89,6 +83,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - Two fair coin tosses: Show that “First toss=Heads” and “Second toss=Heads” are independent.
 
 ---
@@ -96,6 +91,7 @@ paginate: true
 # 4. Random Variables & Distributions
 
 **Key Points**  
+
 - A **Random Variable (RV)** is a function mapping outcomes in $\Omega$ to real values.  
 - **Discrete RV**: Takes values in a countable set.  
 - **Continuous RV**: Takes values in an interval of real numbers.  
@@ -114,7 +110,7 @@ paginate: true
 - **Mean**:  
   - Discrete: $E[X]=\sum_x x\,p_X(x)$.  
   - Continuous: $E[X]=\int_{-\infty}^{\infty}x\,f_X(x)\,dx$.  
-- **Variance**: 
+- **Variance**:
   - $\mathrm{Var}(X)=E[(X-E[X])^2]$
   - Alternatively, $\mathrm{Var}(X)=E[X^2]-(E[X])^2$..
 
@@ -123,6 +119,7 @@ paginate: true
 # 5. Discrete vs. Continuous RV Examples
 
 **Discrete**  
+
 - **Bernoulli, Binomial, Geometric, Poisson**  
   - Example: **Binomial**$(n,p)$:
     $$
@@ -130,6 +127,7 @@ paginate: true
     $$
 
 **Continuous**  
+
 - **Uniform, Exponential, Normal**  
   - Example: **Exponential**$(\lambda)$:
     $$
@@ -139,6 +137,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - A fair coin is tossed 5 times. Let $X$ be the number of heads. Find $P(X=2)$ and $E[X]$.
 
 ---
@@ -146,6 +145,7 @@ paginate: true
 # 6. Normal Distribution & Applications
 
 **Key Points**  
+
 - $X\sim N(\mu,\sigma^2)$:
   $$
   f_X(x)=\frac{1}{\sqrt{2\pi}\,\sigma}\exp\Bigl(-\frac{(x-\mu)^2}{2\sigma^2}\Bigr).
@@ -160,6 +160,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - If $X\sim N(100,16)$, find $P(90\le X\le110)$ using Z-scores or tables.
 
 ---
@@ -167,6 +168,7 @@ paginate: true
 # 7. Basic Statistical Inference
 
 **Key Points**  
+
 - **Population vs. Sample**:  
   - Population parameters: $\mu,\sigma$.  
   - Sample statistics: $\bar{X},s$.  
@@ -175,6 +177,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - You sample 100 people’s heights. Which is the parameter, and which is the statistic?
 
 ---
@@ -182,6 +185,7 @@ paginate: true
 # 8. Point Estimation & Confidence Intervals
 
 **Key Points**  
+
 - **Point Estimation**:  
   - $\bar{X}$ estimates $\mu$.  
   - $\hat{p}$ estimates the true proportion $p$.  
@@ -195,6 +199,7 @@ paginate: true
 ---
 
 **Quick Exercise**  
+
 - A sample of size $n=25$ from a normal population has $\bar{X}=50$, $s=4$. Construct a 95% CI for $\mu$.
 
 ---
