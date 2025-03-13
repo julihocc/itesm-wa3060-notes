@@ -1,6 +1,7 @@
 ### **Exercises: Logic**  
 
 #### **1. Propositional and First-Order Logic**  
+
 1. Determine whether the following statements are **tautologies**, **contradictions**, or **contingent**:  
    a) $P \lor \neg P$  
    b) $(P \lor Q) \land (\neg P \lor \neg Q)$  
@@ -20,6 +21,7 @@
 ---
 
 #### **2. Formalization of Arguments**  
+
 4. Determine whether the following arguments are **valid** using **truth tables** or **logical inference rules**:  
 
    a) **Premises:**  
@@ -45,6 +47,7 @@
 ---
 
 #### **3. Applications in Mathematics and Computation**  
+
 6. **Set Theory Application:** Let $U = \{1,2,3,4,5,6,7,8,9\}$, $A = \{2,4,6,8\}$, and $B = \{1,2,3,4\}$. Compute:  
    a) $A \cup B$  
    b) $A \cap B$  
@@ -56,11 +59,3 @@
    b) $(A \land B) \lor (\neg A \land B)$  
    c) $A \lor (A \land B)$  
 
-8. **Logic Programming (Prolog):** Given the facts:  
-   ```prolog
-   parent(alice, bob).
-   parent(bob, charlie).
-   parent(charlie, david).
-   ```  
-   a) Write a **recursive rule** for the "ancestor" relation.  
-   b) Query whether **Alice is an ancestor of David** using your rule.
