@@ -1,6 +1,7 @@
 ### **Practice Exercises: Differential Equations**  
 
 #### **1. Introduction to Differential Equations**  
+
 1. Determine the order and linearity of the following differential equations:  
    a) $\frac{d^2y}{dx^2} + 3\frac{dy}{dx} - 2y = 0$  
    b) $xy'' + \sin(x)y' + e^y = 0$  
@@ -16,6 +17,7 @@
 ---
 
 #### **2. First-Order Ordinary Differential Equations**  
+
 3. Solve the following separable equations:  
    a) $\frac{dy}{dx} = xy$  
    b) $\frac{dy}{dx} = \frac{x}{y}$  
@@ -38,6 +40,7 @@
 ---
 
 #### **3. Applications of First-Order Differential Equations**  
+
 7. **Exponential Growth & Decay:** A bacteria culture starts with 500 cells and grows at a rate proportional to its population. After 2 hours, there are 2000 cells.  
    - Find the population function $P(t)$.  
    - Determine how many cells will be present after 5 hours.  
