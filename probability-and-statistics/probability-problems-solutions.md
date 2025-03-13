@@ -46,6 +46,7 @@ P(C)=\frac{2}{4}=0.5.
 $$
 
 c) **Independence Check:**  
+
 - Let $F$ = “first toss is a head” with outcomes $\{HH, HT\}$, so $P(F)=\frac{2}{4}=0.5$.  
 - Intersection $F\cap C=\{HT\}$ with $P(F\cap C)=\frac{1}{4}=0.25$.  
 - Since $P(F)P(C)=0.5\times0.5=0.25$ and $P(F\cap C)=0.25$, the events are independent.
@@ -116,9 +117,11 @@ $$
 P(90\le X\le110)=P(-0.625\le Z\le0.625).
 $$
 Using standard normal tables:
+
 - $P(Z\le0.625)\approx0.7340$,
 - $P(Z\le-0.625)\approx0.2660$.  
 Thus,  
+
 $$
 P(90\le X\le110)\approx0.7340-0.2660=0.4680.
 $$
@@ -186,6 +189,7 @@ $$
 
 c) **Normal Approximation:**  
 For $X\sim \text{Binomial}(100,0.7)$:
+
 - Mean: $\mu=np=70$,
 - Variance: $\sigma^2=np(1-p)=21$,
 - Standard deviation: $\sigma\approx\sqrt{21}\approx4.583$.
